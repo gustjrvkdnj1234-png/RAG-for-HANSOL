@@ -13,7 +13,7 @@ from openai import OpenAI
 
 @st.cache_data(show_spinner=False)
 def load_data():
-    path = "한솔제지_naver_news.json"  # 너의 JSON 경로
+    path = "hansol_naver_news.json"  # 너의 JSON 경로
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
