@@ -112,7 +112,6 @@ def build_context(question, top_k=5, max_sents=8):
 # 5) HF LLM 연결
 # ======================
 
-HF_TOKEN = "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"
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
 
 client = OpenAI(
